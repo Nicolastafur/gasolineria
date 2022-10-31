@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/recordar.css">
+    <title>gasolineria 123</title>
+</head>
+
+<body>
+    <div id="formulario">
+
+        <div id="mitad">
+            <img src="./imagenes/cambio.png">
+        </div>
+
+        <div class="registro">
+
+            <div id="logotipo">
+                <img src="./imagenes/logo gasolineria.png">
+            </div>
+
+            <div id="login">
+
+                <form method="GET" name="formreg" action="validar.php" autocomplete="off">
+                    <h2><label for="usuario ">Cambio de Contraseña</label></h2><br><br>
+
+                    <section id="registro">
+
+                        <h1><label>Identificacion:</label></h1><br>
+                        <input type="number" name="id_usu" placeholder="Ingrese su nombre"><br><br>
+
+                        <h1><label> Correo:</label></h1><br>
+                        <input type="email" name="email" placeholder="Ingrese su correo"><br><br>
+
+                        <h1><label> Celular:</label></h1><br>
+                        <input type="number" name="cel_usu" placeholder="Ingrese su celular"><br><br>
+
+
+                        <div id="submit">
+
+                            <input type="submit" value="validar" name="validar">
+                            <input type="hidden" value="formreg" name="MM_insert">
+
+                        </div>
+
+
+                    </section>
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
