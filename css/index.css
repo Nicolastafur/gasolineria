@@ -1,0 +1,203 @@
+@import url(reset.css);
+@import url(fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../imagenes/fondo2.jfif) no-repeat center center;
+    min-height: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    top: auto;
+    font-size: 11px;
+    line-height: 14px;
+    box-sizing: border-box;
+}
+
+
+/*formulario*/
+
+#formulario {
+    text-align: right;
+    margin-left: auto;
+    width: 900px;
+    height: 700px;
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+/*mitad a la left*/
+
+#formulario #mitad {
+    width: 450px;
+    height: 544px;
+    float: left;
+}
+
+#formulario #mitad img {
+    width: 450px;
+    height: 700px;
+}
+
+#formulario #mitad img:hover {
+    text-decoration: none;
+}
+
+
+/*mitad a la rigth*/
+
+.registro {
+    width: 450px;
+    height: 700px;
+    float: left;
+}
+
+.registro #logotipo {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    display: inline;
+    float: left;
+}
+
+.registro #logotipo img {
+    width: 200px;
+    height: 80px;
+    float: center;
+    margin-left: 150px;
+    margin-top: 21px;
+}
+
+.registro #logotipo img:hover {
+    text-decoration: none;
+}
+
+#login h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 120px;
+    float: center;
+    font-weight: bold;
+}
+
+#login #registro h1 {
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+#registro {
+    width: 441px;
+    height: 800px;
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#registro input {
+    font-size: 17px;
+    text-align: left;
+    width: 400px;
+    height: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #dddfe2;
+    margin: 0;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+
+/*boton de enviar*/
+
+#submit {
+    width: 100px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    left: 100px;
+    top: 500px;
+    float: left;
+    padding: 10px 16px;
+}
+
+#submit input {
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    width: 80px;
+    color: black;
+    font-size: 16px;
+    float: center;
+    padding: 10px 0;
+    background: #23d65f;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+#submit input:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+}
+
+#olvido a {
+    width: 364px;
+    height: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding: 40px 30px;
+}
+
+#olvido a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+.sign-up a {
+    width: 364px;
+    height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: right;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding: 5px 30px;
+}
+
+.sign-up a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}

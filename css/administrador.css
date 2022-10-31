@@ -1,0 +1,353 @@
+@import url(../css/reset.css);
+@import url(../css/fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../imagenes/descarga.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+    background-color: #fff;
+    font-size: 10px;
+    width: 100%;
+    height: 1000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*--estilos al header--*/
+
+header {
+    max-height: 100%;
+    width: 100%;
+    float: left;
+    display: inline;
+    background-color: black;
+    box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
+}
+
+#subheader {
+    width: 100%;
+    margin: auto;
+}
+
+#logotipo {
+    width: 288px;
+    margin: auto;
+    display: inline;
+    float: left;
+}
+
+#logotipo img {
+    height: 100px;
+    width: 400px;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#logotipo a:hover {
+    text-decoration: none;
+}
+
+
+/*menu*/
+
+header #subheader nav {
+    float: center;
+    width: 150%;
+    padding: 50px 400px 20px 600px;
+    text-align: center;
+}
+
+header #subheader nav ul {
+    display: inline;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header #subheader nav ul li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header #subheader nav ul li a {
+    color: #fff;
+    float: center;
+    padding: 25px 20px 25px 13px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    letter-spacing: 0px;
+}
+
+header #subheader nav ul li a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+
+/*contenido*/
+
+.titulo {
+    width: 100%;
+}
+
+.titulo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 11px;
+    color: white;
+    float: right;
+    right: 500px;
+    position: relative;
+    align-items: center;
+    top: 60px;
+}
+
+
+/*primera caja con imagen*/
+
+.bloque1 {
+    background: url("../imagenes/servicios.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 210px;
+    float: left;
+    height: 210px;
+    margin-top: 190px;
+    margin-left: 140px;
+    color: black;
+}
+
+.bloque1 ul {
+    align-items: center;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    letter-spacing: 0px;
+    right: 25px;
+    color: black;
+}
+
+.bloque1 ul a:hover {
+    color: black;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+
+/*segunda caja con imagen*/
+
+.bloque2 {
+    background: url("../imagenes/vehiculos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 210px;
+    float: left;
+    height: 210px;
+    margin-top: 190px;
+    margin-left: 200px;
+    color: black;
+}
+
+.bloque2 ul {
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    letter-spacing: 0px;
+    right: 25px;
+    color: black;
+}
+
+.bloque2 ul a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+
+/*Tercera Caja***/
+
+.bloque3 {
+    background: url("../imagenes/factura.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 210px;
+    float: left;
+    height: 210px;
+    margin-top: 180px;
+    margin-left: 200px;
+    color: black;
+}
+
+.bloque3 ul {
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    letter-spacing: 0px;
+    right: 25px;
+    color: black;
+}
+
+.bloque3 ul a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+
+/*cuarta Caja***/
+
+.bloque4 {
+    background: url("../imagenes/reporte.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 210px;
+    float: right;
+    height: 210px;
+    margin-top: 100px;
+    margin-right: 1000px;
+    color: black;
+}
+
+.bloque4 ul {
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    letter-spacing: 0px;
+    right: 25px;
+    color: black;
+}
+
+.bloque4 ul a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+
+/*quinta Caja***/
+
+.bloque5 {
+    background: url("../imagenes/tipo_usu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 210px;
+    float: right;
+    height: 210px;
+    margin-top: -210px;
+    margin-right: 600px;
+    color: black;
+}
+
+.bloque5 ul {
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    letter-spacing: 0px;
+    right: 25px;
+    color: black;
+}
+
+.bloque5 ul a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+
+/*sexta Caja***/
+
+.bloque6 {
+    background: url("../imagenes/usuario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 210px;
+    float: right;
+    height: 210px;
+    margin-top: -210px;
+    margin-right: 180px;
+    color: black;
+}
+
+.bloque6 ul {
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    align-content: center;
+    letter-spacing: 0px;
+    right: 25px;
+    color: black;
+}
+
+.bloque6 ul a:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}

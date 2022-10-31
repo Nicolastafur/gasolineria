@@ -1,0 +1,100 @@
+@import url(reset.css);
+@import url(fuentes.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../foto/degradado1.jfif) no-repeat center center;
+    min-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    top: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.datos img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.form-group {
+    border: 1px;
+    width: 720px;
+    text-align: center;
+    color: green;
+    border-radius: 10px;
+    margin: 0 auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.text-aqua {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background: blue;
+    color: azure;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 55px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+}
+
+.button:hover {
+    color: black;
+    color: var(--accent-color);
+    color: red;
+    text-decoration: none;
+}
+
+.button.green {
+    background: darkgreen;
+    box-shadow: 0px 3px 0px #373c3c;
+}
+
+.button.red {
+    background: maroon;
+    box-shadow: 0px 3px 0px #373c3c;
+}
+
+.button.registro {
+    background: darkorange;
+    box-shadow: 0px 3px 0px #373c3c;
+}
+
+table {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+    border-spacing: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: gray;
+    color: black;
+    background-size: cover;
+}
+
+td {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #000;
+    border-spacing: 0;
+    color: white;
+    box-shadow: #000;
+}

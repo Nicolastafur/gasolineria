@@ -1,0 +1,115 @@
+@import url(resset.css);
+@import url(fuentes.css);
+body {
+    background: url("../imagenes/fondo4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-register .imagen {
+    width: 550px;
+    height: 1600px;
+    background: rgb(255, 255, 255);
+    float: left;
+    top: -29px;
+    position: relative;
+    left: -29px;
+}
+
+.form-register {
+    width: 1000px;
+    height: 1600px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.form-register img {
+    width: 450px;
+    height: 750px;
+    margin: auto;
+    float: left;
+    position: relative;
+}
+
+.form-register h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    top: 30px;
+    position: relative;
+}
+
+.contols {
+    width: 400px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.form-register .imagen2 {
+    width: 10px;
+    height: 10px;
+    float: right;
+}
+
+.imagen2 img {
+    width: 200px;
+    height: 80px;
+    left: -320px;
+    position: relative;
+    top: -30px;
+}
+
+#submit {
+    width: 100px;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    left: 600px;
+    top: 600px;
+    float: left;
+    padding: 10px 16px;
+}
+
+#submit .boton {
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    width: 80px;
+    color: black;
+    font-size: 16px;
+    float: center;
+    padding: 10px 0;
+    background: #23d65f;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 16px;
+}
+
+#submit .boton:hover {
+    color: #fff;
+    color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+}
+
+.datos img {
+    width: 10%;
+    border-radius: 50%;
+}
